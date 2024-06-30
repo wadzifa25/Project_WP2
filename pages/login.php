@@ -31,18 +31,18 @@ if (isset($_POST["signin"])) {
 	<div class="form-container sign-up-container">
 		<form action="" method="post">
 			<h1>Buat Akun</h1>
-			<input type="text" placeholder="Username" name="username" autocomplete="off" required>
-			<input type="text" placeholder="No Whatsapp" name="no_wa" autocomplete="off"required>
-			<input type="email" placeholder="Email" name="email" autocomplete="off" required>
-			<input type="password" placeholder="Password" name="password" autocomplete="off" required>
+			<input type="text" placeholder="Username" name="username" autocomplete="off" required/>
+			<input type="text" placeholder="No Whatsapp" name="no_wa" autocomplete="off"required/>
+			<input type="email" placeholder="Email" name="email" autocomplete="off" required/>
+			<input type="password" placeholder="Password" name="password" autocomplete="off" required/>
 			<button type="submit" name="signup">Daftar</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
 		<form action="" method="post">
 			<h1>Sign In</h1>
-			<input type="username" placeholder="Username" name="username" autocomplete="off" required>
-			<input type="password" placeholder="Password" name="password" autocomplete="off" required>
+			<input type="username" placeholder="Username" name="username" autocomplete="off" required/>
+			<input type="password" placeholder="Password" name="password" autocomplete="off" required/>
 			<button type="submit" name="signin">Sign In</button>
 		</form>
 	</div>
